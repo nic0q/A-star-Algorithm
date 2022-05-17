@@ -1,0 +1,480 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# Este es software libre; consulte en el c�digo fuente las condiciones de copia.
+# NO hay garant�a; ni siquiera para MERCANTIBILIDAD o EL CUMPLIMIENTO DE
+# ALG�N PROP�SITO PARTICULAR.
+
+ # Este programa fue construido para i386-pc-mingw32
+ 
+
+# Base de datos del Make, mostrada en Tue May 17 19:29:33 2022
+
+# Variables
+
+# autom�tica/o
+<D = $(patsubst %/,%,$(dir $<))
+# autom�tica/o
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# entorno
+VSCODE_LOG_NATIVE = false
+# autom�tica/o
+?D = $(patsubst %/,%,$(dir $?))
+# autom�tica/o
+@D = $(patsubst %/,%,$(dir $@))
+# entorno
+HOMEDRIVE = C:
+# autom�tica/o
+@F = $(notdir $@)
+# autom�tica/o
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/nicol/OneDrive - usach.cl/Universidad/Nivel5/taller/Entrega 1 
+/Repo
+# por defecto
+SHELL := C:/rtools42/usr/bin/sh.exe
+# entorno
+WINDIR = C:\WINDOWS
+# entorno
+VSCODE_NLS_CONFIG = {"locale":"es-419","availableLanguages":{},"_languagePackSupport":true}
+# entorno
+NVM_HOME = C:\Users\nicol\AppData\Roaming\nvm
+# entorno
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (de `makefile', l�nea 1):
+MAKEFILE_LIST :=  makefile
+# entorno
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# entorno
+TMP = C:\Users\nicol\AppData\Local\Temp
+# entorno
+VSCODE_VERBOSE_LOGGING = true
+# entorno
+PROGRAMW6432 = C:\Program Files
+# entorno
+NVM_SYMLINK = C:\Program Files\nodejs
+# entorno
+PROGRAMDATA = C:\ProgramData
+# entorno
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-b653f287-6627-42da-9f10-bbd1861257b6-sock
+# entorno
+VSCODE_CWD = C:\Users\nicol\OneDrive - usach.cl\Universidad\Nivel5\taller\Entrega 1\Repo
+# entorno
+PATH = C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\nicol\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\OpenJDK\openjdk-11.0.13_8\bin;C:\Program Files\swipl\bin;C:\Users\nicol\AppData\Local\Microsoft\WindowsApps;C:\Users\nicol\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\nicol\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\nicol\AppData\Roaming\npm;C:\Users\nicol\AppData\Local\Programs\mongosh\;C:\mingw64\bin;C:\Users\nicol\AppData\Local\Programs\Python\Python310;C:\Program Files (x86)\GnuWin32\bin;C:\rtools42\usr\bin;
+# entorno
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# entorno
+CHOCOLATEYLASTPATHUPDATE = 132911851821638805
+# entorno
+PROCESSOR_ARCHITECTURE = x86
+# entorno
+ONEDRIVE = C:\Users\nicol\OneDrive - usach.cl
+# entorno
+USERPROFILE = C:\Users\nicol
+# entorno
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# entorno
+ALLUSERSPROFILE = C:\ProgramData
+# entorno
+VSCODE_LOG_STACK = false
+# entorno
+NUMBER_OF_PROCESSORS = 8
+# entorno
+ELECTRON_RUN_AS_NODE = 1
+# por defecto
+.FEATURES := target-specific order-only second-expansion else-if archives
+# autom�tica/o
+%F = $(notdir $%)
+# entorno
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_1616_HUIBWERPSOURNQDM
+# entorno
+VSCODE_PIPE_LOGGING = true
+# entorno
+COMPUTERNAME = DESKTOP-U60L63I
+# entorno
+PROGRAMFILES = C:\Program Files (x86)
+# entorno
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# entorno
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# entorno
+USERNAME = nico
+# entorno
+PUBLIC = C:\Users\Public
+# entorno
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# entorno
+VSCODE_CODE_CACHE_PATH = C:\Users\nicol\AppData\Roaming\Code\CachedData\da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+# entorno
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# entorno
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# entorno
+LOGONSERVER = \\DESKTOP-U60L63I
+# entorno
+ONEDRIVECONSUMER = C:\Users\nicol\OneDrive
+# entorno
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# entorno
+USERDOMAIN = DESKTOP-U60L63I
+# por defecto
+MAKE = $(MAKE_COMMAND)
+# por defecto
+MAKECMDGOALS := all
+# entorno
+JAVA_HOME = C:\Program Files\OpenJDK\openjdk-11.0.13_8
+# entorno
+ONEDRIVECOMMERCIAL = C:\Users\nicol\OneDrive - usach.cl
+# por defecto
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := all
+# entorno
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# autom�tica/o
+%D = $(patsubst %/,%,$(dir $%))
+# entorno
+LOCALAPPDATA = C:\Users\nicol\AppData\Local
+# entorno
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# por defecto
+MAKE_COMMAND := make.exe
+# entorno
+PROCESSOR_ARCHITEW6432 = AMD64
+# por defecto
+.VARIABLES := 
+# autom�tica/o
+*F = $(notdir $*)
+# entorno
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD
+# entorno
+OS = Windows_NT
+# entorno
+VSCODE_IPC_HOOK = \\.\pipe\c1b68a88e8f94cb8608544f5ac66a4cb-1.67.1-main-sock
+# entorno
+HOMEPATH = \Users\nicol
+# entorno
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# entorno
+PROMPT = $P$G
+# entorno
+MFLAGS = -Rrqp
+# autom�tica/o
+*D = $(patsubst %/,%,$(dir $*))
+# entorno
+SYSTEMROOT = C:\WINDOWS
+# autom�tica/o
++D = $(patsubst %/,%,$(dir $+))
+# autom�tica/o
++F = $(notdir $+)
+# entorno
+APPDATA = C:\Users\nicol\AppData\Roaming
+# entorno
+TEMP = C:\Users\nicol\AppData\Local\Temp
+# entorno
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# por defecto
+MAKEFILES := 
+# autom�tica/o
+<F = $(notdir $<)
+# entorno
+LC_ALL = C
+# entorno
+RTOOLS42_HOME = C:\rtools42
+# autom�tica/o
+^F = $(notdir $^)
+# por defecto
+SUFFIXES := 
+# entorno
+SYSTEMDRIVE = C:
+# entorno
+SESSIONNAME = Console
+# entorno
+PROCESSOR_REVISION = 1801
+# entorno
+VBOX_HWVIRTEX_IGNORE_SVM_IN_USE = 1
+# entorno
+MAKELEVEL := 0
+# entorno
+LANG = C
+# entorno
+PROCESSOR_LEVEL = 23
+# entorno
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# entorno
+VSCODE_PID = 1616
+# entorno
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-U60L63I
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=97/1024=9%, Rehash=0, Colisiones=11/116=9%
+
+# Valores de variables espec�ficas al patr�n
+
+# No hay valores de variables espec�ficas al patr�n.
+
+# Directorios
+
+# C:\Users\nicol\AppData\Local\Programs\Python\Python310 (llave C:/Users/nicol/AppData/Local/Programs/Python/Python310, mtime 1647993768): 18 archivos, no imposibilidades.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (llave C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1643111564): 32 archivos, no imposibilidades.
+# C:\WINDOWS\System32\Wbem (llave C:/WINDOWS/System32/Wbem, mtime 1646968088): 156 archivos, no imposibilidades.
+# . (llave c:/Users/nicol/OneDrive - usach.cl/Universidad/Nivel5/taller/Entrega 1/Repo, mtime 1652830171): 26 archivos, no imposibilidades.
+# C:\ProgramData\chocolatey\bin (llave C:/ProgramData/chocolatey/bin, mtime 1646881141): 15 archivos, no imposibilidades.
+# C:\Program Files\nodejs\ (llave C:/Program Files/nodejs/, mtime 1646707842): 13 archivos, no imposibilidades.
+# C:\Users\nicol\AppData\Local\Programs\Microsoft VS Code\bin (llave C:/Users/nicol/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1652204088): 4 archivos, no imposibilidades.
+# C:\Program Files\nodejs (llave C:/Program Files/nodejs, mtime 1646707842): 13 archivos, no imposibilidades.
+# C:\Users\nicol\AppData\Roaming\npm (llave C:/Users/nicol/AppData/Roaming/npm, mtime 1644254941): 12 archivos, no imposibilidades.
+# C:\Program Files (x86)\VMware\VMware Workstation\bin\ (llave C:/Program Files (x86)/VMware/VMware Workstation/bin/, mtime 1645126854): 4 archivos, no imposibilidades.
+# C:\WINDOWS\System32\OpenSSH\: podr�a no estar establecido.
+# C:\Users\nicol\AppData\Roaming\nvm (llave C:/Users/nicol/AppData/Roaming/nvm, mtime 1644118730): 11 archivos, no imposibilidades.
+# C:\mingw64\bin (llave C:/mingw64/bin, mtime 1644474821): 83 archivos, no imposibilidades.
+# C:\WINDOWS (llave C:/WINDOWS, mtime 1652668503): 113 archivos, no imposibilidades.
+# C:\Users\nicol\AppData\Local\Microsoft\WindowsApps (llave C:/Users/nicol/AppData/Local/Microsoft/WindowsApps, mtime 1652623481): 28 archivos, no imposibilidades.
+# C:\rtools42\usr\bin (llave C:/rtools42/usr/bin, mtime 1650038896): 363 archivos, no imposibilidades hasta ahora.
+# C:\Users\nicol\AppData\Local\Programs\mongosh\ (llave C:/Users/nicol/AppData/Local/Programs/mongosh/, mtime 1646844524): 8 archivos, no imposibilidades.
+# C:\Program Files\Git\cmd (llave C:/Program Files/Git/cmd, mtime 1643286805): 8 archivos, no imposibilidades.
+# C:\WINDOWS\system32 (llave C:/WINDOWS/system32, mtime 1652800791): 2954 archivos, no imposibilidades.
+# C:\Program Files\swipl\bin (llave C:/Program Files/swipl/bin, mtime 1650843921): 67 archivos, no imposibilidades.
+# C:\Program Files\OpenJDK\openjdk-11.0.13_8\bin (llave C:/Program Files/OpenJDK/openjdk-11.0.13_8/bin, mtime 1633734726): 125 archivos, no imposibilidades.
+# C:\Program Files (x86)\GnuWin32\bin (llave C:/Program Files (x86)/GnuWin32/bin, mtime 1648060399): 5 archivos, no imposibilidades.
+
+# 4058 archivos, no imposibilidades en 22 directorios.
+
+# Reglas impl�citas.
+
+# No hay reglas impl�citas.
+
+# Archivos
+
+# No es un objetivo:
+testContainer.cpp:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-04-04 17:47:38
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+all: test_maze test_node test_container main
+#  Objetivo de l�nea de instrucciones.
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  El archivo no existe.
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad 
+�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Maze.o: Maze.cpp maze.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-05-17 19:22:09
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+#  comandos para ejecutar (de `makefile', linea 19):
+	g++ -c Maze.cpp
+	
+
+test_node: testNode.cpp Node.o
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-05-17 19:22:11
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+#  comandos para ejecutar (de `makefile', linea 13):
+	g++ Node.o testNode.cpp -o test_node
+	
+
+# No es un objetivo:
+.DEFAULT:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+test_maze: testMaze.cpp Maze.o Node.o Container.o
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-05-17 19:22:11
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+#  comandos para ejecutar (de `makefile', linea 10):
+	g++ Maze.o Node.o Container.o testMaze.cpp -o test_maze
+	
+
+test_container: testContainer.cpp Node.o Container.o
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-05-17 19:22:12
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+#  comandos para ejecutar (de `makefile', linea 7):
+	g++ Container.o Node.o testContainer.cpp -o test_container
+	
+
+# No es un objetivo:
+makefile:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-05-17 19:22:04
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Container.o: Container.cpp container.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-05-17 19:22:10
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+#  comandos para ejecutar (de `makefile', linea 16):
+	g++ -c Container.cpp
+	
+
+# No es un objetivo:
+Main.cpp:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-04-04 22:49:13
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+node.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-04-03 20:16:03
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+Node.cpp:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-04-04 18:58:23
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+.SUFFIXES:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+
+# No es un objetivo:
+maze.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-04-04 23:09:22
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+clean:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 28):
+	rm -f *.o
+	
+
+# No es un objetivo:
+Maze.cpp:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-04-04 23:22:42
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+testNode.cpp:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-04-04 22:12:04
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+main: Main.cpp Maze.o Container.o Node.o
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-05-17 19:22:13
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+#  comandos para ejecutar (de `makefile', linea 4):
+	g++ Maze.o Node.o Container.o Main.cpp -o main
+	
+
+Main.o: Main.cpp
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  La fecha de modificaci�n no se comprob�.
+#  El archivo ha sido actualizado.
+#  comandos para ejecutar (de `makefile', linea 25):
+	g++ -c Main.cpp
+	
+
+# No es un objetivo:
+container.h:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-04-04 23:15:59
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+testMaze.cpp:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-04-04 22:20:30
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+# No es un objetivo:
+Container.cpp:
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-04-04 19:00:47
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+
+Node.o: Node.cpp node.h
+#  La b�squeda de reglas impl�citas ha sido efectuada.
+#  �ltima modificaci�n 2022-05-17 19:22:09
+#  El archivo ha sido actualizado.
+#  Actualizado con �xito.
+# estad�sticas del conjunto de variables de la tabla de hash:
+# Carga=0/32=0%, Rehash=0, Colisiones=0/0=0%
+#  comandos para ejecutar (de `makefile', linea 22):
+	g++ -c Node.cpp
+	
+
+# estad�sticas de la tabl 
+a de hash de los archivos:
+# Carga=23/1024=2%, Rehash=0, Colisiones=0/59=0%
+# Rutas de b�squeda VPATH
+
+# No hay rutas de b�squeda `vpath'.
+
+# No hay ruta de b�squeda general (variable `VPATH').
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Se termina la base de datos de Make en Tue May 17 19:29:33 2022
+
+ 

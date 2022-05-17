@@ -1,0 +1,10 @@
+make.exe: se ingresa al directorio `c:/Users/nicol/OneDrive - usach.cl/Universidad/Nivel5/taller/Entrega 1/Repo'
+g++ -c Maze.cpp
+g++ -c Node.cpp
+g++ -c Container.cpp
+g++ Maze.o Node.o Container.o testMaze.cpp -o test_maze
+g++ Node.o testNode.cpp -o test_node
+g++ Container.o Node.o testContainer.cpp -o test_container
+g++ Maze.o Node.o Container.o Main.cpp -o main
+make.exe: se sale del directorio `c:/Users/nicol/OneDrive - usach.cl/Universidad/Nivel5/taller/Entrega 1/Repo'
+ 
