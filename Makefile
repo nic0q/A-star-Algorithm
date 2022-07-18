@@ -25,4 +25,4 @@ Main.o: Main.cpp
 	g++ -c Main.cpp
 
 clean:
-	rm -f *.o
+	rm -f *.o *.exe main test_container test_maze test_node
